@@ -1,0 +1,84 @@
+ *{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ }
+body{
+    width: 100%;
+}
+
+header{
+   width: 100%; 
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: space-between;
+}
+.cadreProfil{
+   width: 10%; 
+   background-color:rgb(255, 238, 0);
+}
+.cadreBar{
+   width: 50%; 
+   background-color:rgb(181, 191, 193);
+}
+.cadreLogo{
+   width: 20%; 
+   background-color:rgb(255, 238, 0);
+}
+.Grostitre {
+width: 100%;
+background-color: aquamarine ;
+display: flex;
+justify-content: center;
+}
+.DarkGrostitre {
+width: 100%;
+background-color:black;
+color: bisque;
+display: flex;
+justify-content: center;
+}
+.font {
+width: 100%;
+display:flex;
+flex-direction: column;
+}
+
+.images {
+background-color: rgb(255, 255, 255);
+display: flex;
+justify-content: space-between;
+}
+.Darkimages {
+background-color:black;
+display: flex;
+justify-content: space-between;
+}
+.contacterNous {
+width: 60%;
+background-color: bisque;
+flex-direction: column;
+flex-grow: 1;
+}
+.DarkcontacterNous {
+width: 60%;
+background-color: black;
+color: bisque;
+flex-direction: column;
+flex-grow: 1;
+}
+
+.main {
+   width: 100%;
+   display:flex;
+   flex-direction: column;
+   background-color: darkgrey;
+   color: blue;
+}
+.Darkmain {
+   width: 100%;
+   display:flex;
+   flex-direction: column;
+   background-color: black;
+   color: bisque;
+}
